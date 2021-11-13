@@ -13,14 +13,16 @@
   </head>
 
   <body>
-    <!-- <header>
+    <header>
       <div class="overlay">
         <h1>Четыре правила верстки</h1>
       </div>
-    </header> -->
-    <section>
+    </header>
+
+    <section class="content">
+
       <div class="card">
-        <img src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg" alt="">
+        <img class = "card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg" alt="">
         <h3 class="card-title">Пустота</h3>
         <p class="card-text">
           Простое правило, которое часто нарушают: ставить рядом элементы с
@@ -28,15 +30,36 @@
           средство воздействия.
         </p>
       </div>
-      <div class="card">
-        <img src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-2.jpg" alt="">
+
+      <div class="card no-rigth-margin">
+        <img class = "card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-2.jpg" alt="">
         <h3 class="card-title">Сетка</h3>
         <p class="card-text">
-          Размеры элементов и расстояние между ними укладываются в схему-её
+          Размеры элементов и расстояние между ними укладываются в горманичную схему - её
           называют сеткой. Если элемент выпадает, зритель может это заметить.
         </p>
       </div>
+
+      <div class="card">
+        <img class = "card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-3.jpg" alt="">
+        <h3 class="card-title">Шрифты</h3>
+        <p class="card-text">
+          Не больше трёх шрифтов на сайт. Один для заголовков, второй — для всех остальных текстов, 
+          третий — для выделения важных слов. Должно хватить.
+        </p>
+      </div>
+
+      <div class="card no-rigth-margin">
+        <img class = "card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-4.jpg" alt="">
+        <h3 class="card-title">Цвета</h3>
+        <p class="card-text">
+          Обычно на сайте два цвета: ведущий и акцентный.
+          Подобрать удачную цветовую пару можно за счёт насмотренности или специальных инструментов. 
+        </p>
+      </div>
+
     </section>
-    <script src="./index.js"></script>
+
+   <script src="./index.js"></script>
   </body>
 </html>
