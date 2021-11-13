@@ -38,7 +38,6 @@ h1{
 
 .card{
     width: 350px;
-    background-color: #e3f3ff;
     margin-bottom: 60px;
     padding: 45px 45px 70px;
     border: solid 2px rgba(250, 50, 50, .4);
@@ -63,7 +62,6 @@ h1{
 
 .content{
     font-size: 0;
-    background-color: bisque;
     width: 790px;
     margin: 0 auto;
 }
